@@ -1,0 +1,424 @@
+.header{
+	height: 100px;
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
+.header img{
+	width: 185px;
+	height: 100px;
+	position: absolute;
+	left: 80px;	
+}
+.header_form{
+	float: right;
+}
+.form_left{
+	position: absolute;
+	left: 700px;
+	top: 15px;
+	height: 20px;
+	width: 200px;
+}
+.form_right{
+	position: absolute;
+	left: 700px;
+	top: 40px;
+	height: 20px;
+	width: 200px;
+}
+.span_left{
+	position: absolute;
+	top: 15px;
+	left: 650px;
+	color: #494949;
+	font-size: 15px;
+}
+.span_right{
+	position: absolute;
+	top: 40px;
+	left: 650px;
+	color: #494949;
+	font-size: 15px;	
+}
+.search{
+	position: absolute;
+	top: 18px;
+	left: 950px;
+	width: 220px;
+	height: 38px;
+	border: 1px solid #00a4ff;
+	padding-left: 21px;
+}
+.form * {
+    float: left;
+    /* vertical-align: middle; */
+} 
+.submit{
+	position: absolute;
+	top: 18px;
+	left: 1145px;
+	height: 40px;
+	width: 51px;
+	border: 1px solid #00a4ff;
+	background: #00a4ff url(../image/search.png) no-repeat center center;
+    cursor: pointer;
+}
+.header__info{	
+	height: 42px;
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	background-color: #0fc884;	
+}
+.info{
+	text-align: center;
+	line-height: 42px;
+	position: absolute;
+	left: 80px;	
+}
+.info li{
+	float: left;
+	padding-right: 21px;
+	padding-left: 21px;
+}
+.info li a{
+	color: white;
+	font-size: 18px;
+}
+.info li>a:hover{
+   color: #00af42; 
+} 
+.banner{
+	position: relative;
+	height: 400px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: url(../image/banner1.png) no-repeat center center;
+	background: url(../image/banner2.png) no-repeat center center;
+	position: relative;
+	background-color: #62edd1;
+}
+.ban{
+	width: 153px;
+	height: 400px;
+}
+.nav{
+	position: absolute;
+	top: 28px;
+	left: 28px;
+	width: 155px;
+}
+.nav li{
+    width: 169px;
+    height: 40px;
+    font-size: 15px;
+}
+.nav li a{
+	width: 163px;
+	color: #494949;
+}
+.nab{
+	position: absolute;
+	left: 1080px;
+	top: 28px;
+	width: 100px;
+}
+.nab li{
+    width: 169px;
+    height: 40px;
+    font-size: 15px;
+}
+.nab li a{
+	width: 163px;
+	color: #494949;
+}
+.center{
+	height: 70px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.left{ 
+	color: #00af42;
+	position: absolute;
+	top: 30px;
+	font-size: 20px;
+}
+.center__info{
+	position: absolute;
+	left: 264px;
+	top: 30px;
+	font-size: 18px;
+}
+.center__info a{
+	color: #050505;
+}
+.center__info li{
+    float: left;
+    width: 150px;
+    border-right: 1px solid #bfbfbf;
+    text-align: center;
+}
+.more{
+	position: absolute;
+	top: 28px;
+	left: 1160px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.more>a{
+	color: #494949;
+}
+.right{
+	color: #00a4ff;
+	position: absolute;
+	left: 1250px;
+	top: 30px;
+	font-size: 18px;
+}
+.container{
+	position: relative;
+	height: 360px;
+	width: 1200px;
+}
+.photo{
+	position: absolute;
+	left: 210px;
+	top: 30px;
+	width: 1200px;
+}
+.product-big{
+	float: left;
+}
+.product-item{
+	padding: 0px 10px;
+}
+.product-info{
+	width: 248px;
+	height: 100px;
+	border: 1px solid #494949;
+	position: relative;
+}
+.product-info p{
+	width: 186px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 16px;
+	padding-left: 23px;
+	padding-top: 30px;
+}
+.bottom{
+	padding-left: 23px;
+	color: #ff9159;
+	position: absolute;
+	top: 60px;
+	font-size: 14px;
+}
+.product-big img{
+	vertical-align: bottom;
+}
+.container2{
+	position: relative;
+	height: 360px;
+	width: 1200px;
+}
+.photo2{
+	position: absolute;
+	left: 210px;
+	top: 10px;
+	width: 1200px;
+}
+.container3{
+	height: 70px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.center-right{
+	position: absolute;
+	top: 28px;
+	left: 1160px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.center-right>a{
+	color: #494949;
+}
+.center-left{
+	color: #ff6600;
+	position: absolute;
+	top: 30px;
+	font-size: 20px;
+}
+.center-center li{
+	float: left;
+    width: 150px;
+    border-right: 1px solid #bfbfbf;
+    text-align: center;
+}
+.center-center{
+	position: absolute;
+	left: 264px;
+	top: 30px;
+	font-size: 18px;
+}
+.center-center a{
+	color: #494949;
+}
+.container4{
+	position: relative;
+	height: 328px;
+	width: 1519px;	
+}
+.product-small li{
+	float: left;
+}
+.photo3{
+	position: absolute;
+	left: 115px;
+	top: 15px;
+	background-color: #f3f5f7;
+}
+.product-small{
+	float: left;
+}
+.product-small img{
+	vertical-align: bottom;
+}
+.inside{
+	padding-left: 17px;
+}
+.container5{
+	position: relative;
+	height: 260px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.photo4{
+	position: absolute;
+	left: 60px;
+	top: 50px;
+	height: 320px;
+}
+.ad{
+	position: relative;
+	padding-right: 30px;
+	float: left;
+}
+.ad>li>ul{
+	width: 175px;
+	height: 75px;
+	background: rgba(0, 0, 0, 0.1);
+	color: black;
+	position: absolute;
+	top: 150px;
+}
+.ad>li>ul>li{
+	padding-top: 8px;
+	padding-left: 10px;
+}
+.symbol-top{
+	font-size:30px; 
+	color: #f9e103;
+}
+.symbol-center{
+	color: #ffffff;
+	font-size: 26px;
+	height: 50px;
+}
+.symbol-border>a{
+	color: #f9e103;
+	font-size: 12px;
+	border: 1px solid #f9e103;
+	text-align: center;
+	padding: 5px 18px;
+}	
+.ad-item{
+	position: relative;
+}
+.ad-symbol{
+	position:absolute ;
+	top: 99px;
+	left: 25px;
+}
+.ad{
+	float: left;
+}
+.ad li{
+	float: left;
+}
+.ad-big{
+	float: left;
+	margin-right: 50px;
+	width: 225px;
+}
+.ad-big img{
+	width: 250px;
+	height: 225px;
+}
+.last{
+	position: relative;
+	height: 400px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.first{
+	position: absolute;
+	top: 127px;
+	color: pink;
+	font-size: 36px;
+}
+.second{
+	position: absolute;
+	top: 198px;
+	color: #666666;
+	font-size: 20px;
+	border-left: 3px solid #00a4ff;
+}
+.third{
+	position: absolute;
+	top: 243px;
+	border: 1px solid #00a4ff;
+	font-size: 10px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.third a{
+	color: #00a4ff;	
+}
+.preferential-left{
+	position: absolute;
+	left: 600px;
+	top: 130px;
+	width: 86px;
+	height: 30px;
+}
+.firstly{
+	font-size: 16px;
+	padding-bottom: 18px;
+}
+.firstly a{
+	color: white;
+}
+.info_bottom{
+	font-size: 12px;
+}
+.info_bottom a{
+	color: #333333;
+}
+.preferential-center{
+	position: absolute;
+	top: 127px;
+	left: 800px;
+	width: 96px;
+}
+.preferential-right{
+	position: absolute;
+	top: 127px;
+	left: 1000px;
+	width: 96px;
+}
